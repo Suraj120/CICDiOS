@@ -34,8 +34,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func calculateButton_TouchUpInside(_ sender: Any) {
-       // MSCrashes.generateTestCrash()
-        MSAnalytics.trackEvent("calculate_retirement_amount")
+        //MSAnalytics.trackEvent("calculate_retirement_amount")
     }
     
 }
